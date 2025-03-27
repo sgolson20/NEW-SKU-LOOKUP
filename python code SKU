@@ -7,7 +7,7 @@ from io import BytesIO
 @st.cache_data
 def load_sku_database():
     # URL for the raw Excel file hosted on GitHub
-    file_url = "https://raw.githubusercontent.com/your-username/your-repository-name/main/punch_and_die_data.xlsx"
+    file_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRWRnc-4mxvJiCXQOVwgOIeoTSmX7OS37_J5OcYLMLRpEFURbOBUdo78WFCLUosWNwtXHm1rRvg3PkG/pubhtml"
     
     # Download the file using requests
     response = requests.get(file_url)
